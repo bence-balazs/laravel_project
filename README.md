@@ -4,3 +4,5 @@
 ## modify some permissions
 ```sudo chmod -R o+w src/storage src/bootstrap/cache```
 
+## startup 
+```docker compose up -d --build server```
