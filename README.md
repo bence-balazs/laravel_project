@@ -1,8 +1,15 @@
 ## laravel composer create project
-```docker compose run --rm --build composer create-project --prefer-dist laravel/laravel .```
+```sh
+docker compose run --rm --build composer create-project --prefer-dist laravel/laravel .
+```
 
 ## modify some permissions
-```sudo chmod -R o+w src/storage src/bootstrap/cache```
+```sh
+sudo chmod -R o+w src/storage src/bootstrap/cache
+```
 
-## startup 
-```docker compose up -d --build server```
+## startup
+
+```sh
+docker compose up -d --build server
+```
