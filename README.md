@@ -6,6 +6,7 @@ docker compose run --rm --build composer create-project --prefer-dist laravel/la
 ## modify some permissions
 ```sh
 sudo chmod -R o+w src/storage src/bootstrap/cache
+sudo chown -R ${USER}:${USER}
 ```
 
 ## startup
